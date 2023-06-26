@@ -9,7 +9,7 @@
 <body>
 	<!-- the entire body must be written by student -->
 	<h1>Feedback Form</h1>
-    <form action="/submit">
+    <form action="/submit" method="post">
         <label for="name">Enter Your Name</label>
         <input minlength="3" maxlength="50" required id="name" type="name">
         <br><br>
@@ -20,7 +20,7 @@
         <input type="color" name="favColor" id="favColor">
         <br><br>
         <label for="likeness">Enter Your color likeness</label>
-        <input type="range" name="likeness" id="likeness" min="1">
+        <input type="range" name="likeness" id="likeness" min="1" max="100">
         <br><br>
         <button>submit</button>
     </form>
